@@ -366,11 +366,11 @@ const ContactSection = () => {
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                       Your Name
                     </label>
-                    <input
-                      id="name"
-                      type="text"
-                      name="name"
-                      required
+                      <input
+                        id="name"
+                        type="text"
+                        name="name"
+                        required
                       className="w-full px-4 py-3 bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-white"
                       placeholder="Enter Name"
                     />
