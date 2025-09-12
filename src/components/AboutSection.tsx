@@ -1,4 +1,3 @@
-
 const AboutSection = () => {
   return (
     <section id="about" className="py-20 md:py-32 bg-gray-50 dark:bg-gray-800">
@@ -10,11 +9,12 @@ const AboutSection = () => {
                 About Me
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                I'm a creative developer and designer with over a decade of
-                experience crafting digital experiences that connect brands with
-                their audiences. My approach combines strategic thinking with
-                technical expertise to deliver solutions that are both beautiful
-                and functional.
+                I have 3.8 years of experience as a Frontend Developer,
+                specializing in building responsive  web
+                applications.
+                <br></br> I'm a creative developer and designer with over a
+                decade of experience crafting digital experiences that connect
+                brands with their audiences.
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
                 Passionate and driven ReactJS developer with a strong foundation
@@ -34,7 +34,7 @@ const AboutSection = () => {
             </div>
 
             <div className="space-y-8">
-              <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md">
+              {/* <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">
                   Skills
                 </h3>
@@ -78,7 +78,7 @@ const AboutSection = () => {
                     </ul>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">
@@ -89,19 +89,25 @@ const AboutSection = () => {
                     <p className="font-medium text-gray-900 dark:text-white">
                       Seven83 Systems Pvt. Ltd.{" "}
                     </p>
-                    <p>Front End Developer , Aug 2023 - Present</p>
+                    <p>
+                      Front End Developer , <br></br>Aug 2023 - Present
+                    </p>
                   </li>
                   <li>
                     <p className="font-medium text-gray-900 dark:text-white">
                       Happi Mobiles Pvt. Ltd.{" "}
                     </p>
-                    <p>Web Developer , Nov 2022 - Aug 2023 </p>
+                    <p>
+                      Web Developer ,<br></br> Nov 2022 - Aug 2023{" "}
+                    </p>
                   </li>
                   <li>
                     <p className="font-medium text-gray-900 dark:text-white">
                       Ivory Innovation Pvt. Ltd.{" "}
                     </p>
-                    <p>UI/UX Developer , Dec 2021 - Nov 2022 </p>
+                    <p>
+                      UI/UX Developer ,<br></br> Dec 2021 - Nov 2022{" "}
+                    </p>
                   </li>
                 </ul>
               </div>

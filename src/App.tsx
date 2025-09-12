@@ -8,7 +8,7 @@ import ServicesSection from './components/ServicesSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
-
+import SkillsPage from './components/SkillsPage';
 function App() {
   return (
     <ThemeProvider>
@@ -17,9 +17,11 @@ function App() {
         <main>
           <HeroSection />
           <AboutSection />
+                    <SkillsPage />
           <WorkSection />
           <ServicesSection />
           <ContactSection />
+
         </main>
         <Footer />
         <ScrollToTop />
