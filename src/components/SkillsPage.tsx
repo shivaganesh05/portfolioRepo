@@ -64,30 +64,33 @@ const SkillsPage: React.FC = () => {
           </h2>
 
           {/* Buttons */}
-          <div
-            className="pop-down transition-all w-fit duration-500 m-auto rounded-lg border border-gray-300 dark:border-gray-700 overflow-hidden bg-gray-100 dark:bg-gray-800"
-            ref={buttonsRef}
-          >
-            {(["Advance", "Good", "Familiar"] as const).map((btn) => (
-              <button
-                key={btn}
-                onClick={() => {
-                  setSection(btn);
-                  if (section !== btn) {
-                    techBoxesRef.current?.classList.remove("pop-up-child");
-                  }
-                }}
-                className={`w-[120px] md:w-[150px] p-2 font-medium text-sm md:text-base transition-colors duration-300 
-                  ${
-                    section === btn
-                      ? "bg-black dark:bg-white text-white dark:text-black"
-                      : "bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700"
-                  }`}
-              >
-                {btn}
-              </button>
-            ))}
-          </div>
+         <div
+  className="pop-down transition-all duration-500 m-auto rounded-lg border border-gray-300 dark:border-gray-700 overflow-hidden bg-gray-100 dark:bg-gray-800 w-full max-w-md"
+  ref={buttonsRef}
+>
+  <div className="flex flex-wrap justify-center">
+    {(["Advance", "Good", "Familiar"] as const).map((btn) => (
+      <button
+        key={btn}
+        onClick={() => {
+          setSection(btn);
+          if (section !== btn) {
+            techBoxesRef.current?.classList.remove("pop-up-child");
+          }
+        }}
+        className={`flex-1 min-w-[100px] sm:min-w-[120px] md:min-w-[150px] p-3 font-medium text-sm md:text-base transition-colors duration-300 
+          ${
+            section === btn
+              ? "bg-black dark:bg-white text-white dark:text-black"
+              : "bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700"
+          }`}
+      >
+        {btn}
+      </button>
+    ))}
+  </div>
+</div>
+
 
           {/* Tech Boxes */}
           <div

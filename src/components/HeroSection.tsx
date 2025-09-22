@@ -61,7 +61,7 @@ Passionate Frontend Developer focused on React and modern UI. I build clean, res
             <a
               className="px-8 py-4 bg-black dark:bg-white text-white dark:text-black rounded-full font-medium transition-transform duration-300 hover:scale-105"
                 // href='https://drive.google.com/file/d/1CYHcG-qNjlm4AbQExy-srnxkBsUD9jIq/view?usp=sharing'
-                href="https://drive.google.com/file/d/13uyOfEv2PpF9ZbCOlnCKe8Zq3FU4ENKB/view"
+                href="https://drive.google.com/file/d/13O7wLE7ynGSVriOtNw04XvQZCNZ7FPMC/view?usp=sharing"
                 target="_blank"
               >
 Resume              </a>
