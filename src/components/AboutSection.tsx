@@ -90,7 +90,7 @@ const AboutSection = () => {
                       Seven83 Systems Pvt. Ltd.{" "}
                     </p>
                     <p>
-                      Front End Developer , <br></br>Aug 2023 - Present
+                      Front End Developer , <br></br>Aug 2023 - Sep 2025
                     </p>
                   </li>
                   <li>

@@ -64,11 +64,11 @@ const SkillsPage: React.FC = () => {
           </h2>
 
           {/* Buttons */}
-         <div
+    <div
   className="pop-down transition-all duration-500 m-auto rounded-lg border border-gray-300 dark:border-gray-700 overflow-hidden bg-gray-100 dark:bg-gray-800 w-full max-w-md"
   ref={buttonsRef}
 >
-  <div className="flex flex-wrap justify-center">
+  <div className="flex flex-nowrap justify-center">
     {(["Advance", "Good", "Familiar"] as const).map((btn) => (
       <button
         key={btn}

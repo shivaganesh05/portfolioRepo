@@ -29,11 +29,11 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: "Education Management",
-    description: "Educational management is the field focused on effectively organizing and administering educational institutions",
+    title: "E-commerce Mobile Store",
+    description: "e-commerce websites that have mastered the mobile experience. We evaluated each site on multiple smartphones,watches and tablets.",
     category: "React",
-    image: "https://i.ibb.co/LzWJM06X/education123.png",
-    url: "https://educationmanagement.netlify.app/"
+    image: "https://i.ibb.co/gbNqpc1j/image.png",
+    url: "https://onlinemobilesshopping.netlify.app/"
   },
   {
     id: 4,
