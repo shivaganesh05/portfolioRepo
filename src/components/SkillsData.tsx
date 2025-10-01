@@ -42,10 +42,7 @@ export const SkillsData: TechSection[] = [
         name: "ReactJS",
         icon: <DiReact className="md:text-4xl text-2xl" color="#53c1de" />,
       },
-      {
-        name: "JavaScript",
-        icon: <DiJavascript1 className="md:text-4xl text-2xl" color="#ffd600" />,
-      },
+    
        {
         name: "NextJS",
         icon: (
@@ -59,6 +56,10 @@ export const SkillsData: TechSection[] = [
       {
         name: "CSS3",
         icon: <FaCss3Alt className="md:text-4xl text-2xl" color="#039be5" />,
+      },
+        {
+        name: "JavaScript",
+        icon: <DiJavascript1 className="md:text-4xl text-2xl" color="#ffd600" />,
       },
       {
         name: "Bootstrap",
@@ -90,6 +91,10 @@ export const SkillsData: TechSection[] = [
         name: "Shadcn ui",
         icon: <SiShadcnui className="md:text-4xl text-2xl" color="#c9d1d9" />,
       },
+       {
+        name: "TypeScript",
+        icon: <SiTypescript className="md:text-4xl text-2xl" color="#377cc8" />,
+      },
        
     ],
     Good: [
@@ -118,10 +123,7 @@ export const SkillsData: TechSection[] = [
         name: "Git",
         icon: <BsGit className="md:text-4xl text-2xl" color="#f4511e" />,
       },
-      {
-        name: "TypeScript",
-        icon: <SiTypescript className="md:text-4xl text-2xl" color="#377cc8" />,
-      },
+     
       {
         name: "WordPress",
         icon: <FaWordpress className="md:text-4xl text-2xl" color="#08668e" />,

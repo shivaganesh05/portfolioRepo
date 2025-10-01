@@ -11,21 +11,22 @@ interface Project {
 }
 
 const projects: Project[] = [
+  
   {
     id: 1,
-    title: "IT Company Website",
-    description: "Fervid Smart Solutions Private Limited - It's trusted partner in technology to drive innovation, growth, and success. Established in 2016.",
-    category: "Bootstrap",
-    image: "https://i.ibb.co/v62Vk1Dw/fervid233.png",
-    url: "https://www.fervidsmart.com/index.html"
-  },
-  {
-    id: 2,
     title: "IT Company Website",
     description: "Created the official corporate site for Seven83. Focused on branding, UI responsiveness, and stakeholder alignment",
     category: "React",
     image: "https://i.ibb.co/4ZjpFgQq/seven833.png",
     url: "https://seven83systems.com/"
+  },
+  {
+    id: 2,
+    title: "Happi Mobiles (E-Commerce) ",
+    description: "Happi Mobiles is an e-commerce platform focused on selling mobile phones, Built a mobile friendly e-commerce site for tech products.",
+    category: "React",
+    image: "https://i.ibb.co/ZzJG08v8/happi-dash.png",
+    url: "https://www.happimobiles.com/"
   },
   {
     id: 3,
@@ -35,13 +36,14 @@ const projects: Project[] = [
     image: "https://i.ibb.co/gbNqpc1j/image.png",
     url: "https://onlinemobilesshopping.netlify.app/"
   },
+  
   {
     id: 4,
-    title: "Happi Mobiles (E-Commerce) ",
-    description: "Happi Mobiles is an e-commerce platform focused on selling mobile phones, Built a mobile friendly e-commerce site for tech products.",
-    category: "React",
-    image: "https://i.ibb.co/ZzJG08v8/happi-dash.png",
-    url: "https://www.happimobiles.com/"
+    title: "IT Company Website",
+    description: "Fervid Smart Solutions Private Limited - It's trusted partner in technology to drive innovation, growth, and success. Established in 2016.",
+    category: "Bootstrap",
+    image: "https://i.ibb.co/v62Vk1Dw/fervid233.png",
+    url: "https://www.fervidsmart.com/index.html"
   },
    {
     id: 5,
