@@ -12,6 +12,9 @@ import {
   SiJquery,
   SiAdobephotoshop,
   SiShadcnui,
+  SiRedux,
+  SiPayloadcms,
+  SiPostgresql,
 } from "react-icons/si";
 import { DiJavascript1, DiReact, DiSass } from "react-icons/di";
 import { BsGit, BsGithub } from "react-icons/bs";
@@ -95,13 +98,13 @@ export const SkillsData: TechSection[] = [
         name: "TypeScript",
         icon: <SiTypescript className="md:text-4xl text-2xl" color="#377cc8" />,
       },
-       
-    ],
-    Good: [
-      {
+        {
         name: "Material UI",
         icon: <SiMui className="md:text-4xl text-2xl" color="#29b6f6" />,
       },
+    ],
+    Good: [
+     
       {
         name: "SASS",
         icon: <DiSass className="md:text-4xl text-2xl" color="#f06292" />,
@@ -120,8 +123,20 @@ export const SkillsData: TechSection[] = [
         icon: <SiNetlify className="md:text-4xl text-2xl" color="#31b5ba" />,
       },
       {
+        name: "Redux",
+        icon: <SiRedux className="md:text-4xl text-2xl" color="#764ABC" />,
+      },
+      {
+        name: "Payloadcms",
+        icon: <SiPayloadcms className="md:text-4xl text-2xl" color="#F9FDE9" />,
+      },
+      {
         name: "Git",
         icon: <BsGit className="md:text-4xl text-2xl" color="#f4511e" />,
+      },
+      {
+        name: "PostgreSQL",
+        icon: <SiPostgresql className="md:text-4xl text-2xl font-bold" color="#1072c2" />,
       },
      
       {
@@ -130,23 +145,25 @@ export const SkillsData: TechSection[] = [
       },
     ],
     Familiar: [
-      {
-        name: "NodeJS",
-        icon: <SiNodedotjs className="md:text-4xl text-2xl" color="#4caf50" />,
+         {
+        name: "Shopify",
+        icon: <FaShopify className="md:text-4xl text-2xl" color="#99c14f" />,
+      },
+ {
+        name: "jQuery",
+        icon: <SiJquery className="md:text-4xl text-2xl" color="#106dae" />,
       },
       {
         name: "Chakra UI",
         icon: <SiChakraui className="md:text-4xl text-2xl" color="#50cbc0" />,
       },
-      {
-        name: "jQuery",
-        icon: <SiJquery className="md:text-4xl text-2xl" color="#106dae" />,
+     
+            {
+        name: "NodeJS",
+        icon: <SiNodedotjs className="md:text-4xl text-2xl" color="#4caf50" />,
       },
     
-      {
-        name: "Shopify",
-        icon: <FaShopify className="md:text-4xl text-2xl" color="#99c14f" />,
-      },
+   
     ],
   },
 ];

@@ -11,11 +11,11 @@ const HeroSection = () => {
     const cta = ctaRef.current;
 
     if (title) title.classList.add('animate-fade-in');
-    
+
     setTimeout(() => {
       if (subtitle) subtitle.classList.add('animate-fade-in');
     }, 300);
-    
+
     setTimeout(() => {
       if (cta) cta.classList.add('animate-fade-in');
     }, 600);
@@ -25,34 +25,34 @@ const HeroSection = () => {
     <section id="hero" className="lg:min-h-screen flex items-center justify-center bg-white dark:bg-gray-900">
       <div className="container mx-auto px-6 md:px-12 py-24 md:py-32">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className='text-4xl md:text-4xl  lg:text-5xl font-bold' 
+          <h1 className='text-4xl md:text-4xl  lg:text-5xl font-bold'
           >
             Chenna
           </h1>
           <br></br>
-           <h1 
+          <h1
             ref={titleRef}
             className="text-4xl md:text-6xl leading-5	 lg:text-7xl font-bold mb-6 opacity-0 transform translate-y-8 transition-all duration-700 text-gray-900 dark:text-white"
           >
-                   SHIVAGANESH
+            SHIVAGANESH
           </h1>
-          <p 
+          <p
             ref={subtitleRef}
             className="text-xl md:text-xl text-gray-600 dark:text-gray-300 mb-12 opacity-0 transform translate-y-8 transition-all duration-700 delay-300"
           >
-Passionate Frontend Developer focused on React and modern UI. I build clean, responsive, and user-friendly web apps that turn ideas into smooth, easy-to-use experiences.</p>
-          <div 
+            Passionate Frontend Developer focused on React and modern UI. I build clean, responsive, and user-friendly web apps that turn ideas into smooth, easy-to-use experiences.</p>
+          <div
             ref={ctaRef}
             className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6 opacity-0 transform translate-y-8 transition-all duration-700 delay-600"
           >
-            <a 
-              href="#work" 
+            <a
+              href="#work"
               className="px-8 py-4 bg-black dark:bg-white text-white dark:text-black rounded-full font-medium transition-transform duration-300 hover:scale-105"
             >
               View My Work
             </a>
-            <a 
-              href="#contact" 
+            <a
+              href="#contact"
               className="px-8 py-4 border border-black dark:border-white text-black dark:text-white rounded-full font-medium transition-transform duration-300 hover:scale-105"
             >
               Get in Touch
@@ -60,11 +60,11 @@ Passionate Frontend Developer focused on React and modern UI. I build clean, res
 
             <a
               className="px-8 py-4 bg-black dark:bg-white text-white dark:text-black rounded-full font-medium transition-transform duration-300 hover:scale-105"
-                href='https://drive.google.com/file/d/1f9OM5RBNqeBQN8ANcrNr6S_AOGPAjbrn/view'
-                // href="https://drive.google.com/file/d/13O7wLE7ynGSVriOtNw04XvQZCNZ7FPMC/view?usp=sharing"
-                target="_blank"
-              >
-Resume              </a>
+              href='https://drive.google.com/file/d/1j5DtgWLAf9gv4Rqj_TKIV8z5ZSbS9PnK/view'
+              // href="https://drive.google.com/file/d/13O7wLE7ynGSVriOtNw04XvQZCNZ7FPMC/view?usp=sharing"
+              target="_blank"
+            >
+              Resume              </a>
 
           </div>
         </div>

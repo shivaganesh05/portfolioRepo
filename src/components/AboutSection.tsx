@@ -9,7 +9,7 @@ const AboutSection = () => {
                 About Me
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                I have 4 years of experience as a Frontend Developer,
+                I have 4.3 years of experience as a Frontend Developer,
                 specializing in building responsive  web
                 applications.
                 <br></br> I'm a creative developer and designer with over a
@@ -85,7 +85,14 @@ const AboutSection = () => {
                   Experience
                 </h3>
                 <ul className="space-y-4 text-gray-600 dark:text-gray-300">
-                  <li>
+                <li>
+                    <p className="font-medium text-gray-900 dark:text-white">
+                      Harsoft Pvt. Ltd.{" "}
+                    </p>
+                    <p>
+                      Front End Developer , <br></br>Oct 2025 -  Present
+                    </p>
+                  </li>   <li>
                     <p className="font-medium text-gray-900 dark:text-white">
                       Seven83 Systems Pvt. Ltd.{" "}
                     </p>

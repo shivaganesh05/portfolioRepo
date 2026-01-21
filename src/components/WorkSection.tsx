@@ -14,14 +14,22 @@ const projects: Project[] = [
   
   {
     id: 1,
+    title: "IoT Device Management",
+    description: "Built a cross-platform IoT dashboard using next.js , featuring real-time device control, and advanced data visualization modules.",
+    category: "Next.js",
+    image: "https://i.ibb.co/HLXZVc3v/IOT.png",
+    url: "https://iot-uat.fervidlabs.in/"
+  },
+   {
+    id: 2,
     title: "IT Company Website",
-    description: "Created the official corporate site for Seven83. Focused on branding, UI responsiveness, and stakeholder alignment",
+    description: "Created the official corporate site for Seven83. Focused on branding, UI responsivenes, and stakeholder alignment",
     category: "React",
     image: "https://i.ibb.co/4ZjpFgQq/seven833.png",
     url: "https://seven83systems.com/"
   },
   {
-    id: 2,
+    id: 3,
     title: "Happi Mobiles (E-Commerce) ",
     description: "Happi Mobiles is an e-commerce platform focused on selling mobile phones, Built a mobile friendly e-commerce site for tech products.",
     category: "React",
@@ -29,7 +37,7 @@ const projects: Project[] = [
     url: "https://www.happimobiles.com/"
   },
   {
-    id: 3,
+    id: 4,
     title: "E-commerce Mobile Store",
     description: "e-commerce websites that have mastered the mobile experience. We evaluated each site on multiple smartphones,watches and tablets.",
     category: "React",
@@ -38,7 +46,7 @@ const projects: Project[] = [
   },
   
   {
-    id: 4,
+    id: 5,
     title: "IT Company Website",
     description: "Fervid Smart Solutions Private Limited - It's trusted partner in technology to drive innovation, growth, and success. Established in 2016.",
     category: "Bootstrap",
@@ -46,24 +54,24 @@ const projects: Project[] = [
     url: "https://www.fervidsmart.com/index.html"
   },
    {
-    id: 5,
+    id: 6,
     title: "Sales (E-Commerce)",
-    description: "It E-Commerce a wide range of activities, from individual businesses selling products through their own websites",
+    description: "It E-Commerce a wide range of activities, from individual businesses selling products through their own websites, this is my practice project",
     category: "React",
     image: "https://i.ibb.co/bRByWrF0/sale.png",
     url: "https://shoppingdress.netlify.app/"
   },
     {
-    id: 6,
+    id: 7,
     title: "Travel",
-    description: "Travel and tourism management the planning, organization, and execution of travel services for business purposes",
+    description: "Travel and tourism management the planning, organization, and execution of travel services for business purposes . this is my practice project",
     category: "Bootstrap",
-    image: "https://i.ibb.co/PzPgxzQy/travel123.png",
+    image: "https://i.ibb.co/yBbXBk8B/trv.png",
     url: "https://triptavel.netlify.app/"
   },
 ];
 
-const categories = ["All", "Bootstrap", "React"];
+const categories = ["All",  "React","Next.js","Bootstrap"];
 
 const WorkSection = () => {
   const [activeCategory, setActiveCategory] = useState("All");
