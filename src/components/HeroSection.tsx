@@ -65,7 +65,7 @@ const HeroSection = () => {
 
             <a
               className="px-8 py-4 bg-black dark:bg-white text-white dark:text-black rounded-full font-medium transition-transform duration-300 hover:scale-105"
-              href="https://drive.google.com/file/d/1aJf__wXPGC_uAmLhTH7py0X79u6_68d-/view"
+              href="https://drive.google.com/file/d/15ouFidfmw5NEv0vyt0uLRB8lDDjb3AMF/view"
               // href="https://drive.google.com/file/d/13O7wLE7ynGSVriOtNw04XvQZCNZ7FPMC/view?usp=sharing"
               target="_blank"
             >
