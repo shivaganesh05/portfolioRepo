@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from "react";
 
 const HeroSection = () => {
   const titleRef = useRef<HTMLHeadingElement>(null);
@@ -10,23 +10,25 @@ const HeroSection = () => {
     const subtitle = subtitleRef.current;
     const cta = ctaRef.current;
 
-    if (title) title.classList.add('animate-fade-in');
+    if (title) title.classList.add("animate-fade-in");
 
     setTimeout(() => {
-      if (subtitle) subtitle.classList.add('animate-fade-in');
+      if (subtitle) subtitle.classList.add("animate-fade-in");
     }, 300);
 
     setTimeout(() => {
-      if (cta) cta.classList.add('animate-fade-in');
+      if (cta) cta.classList.add("animate-fade-in");
     }, 600);
   }, []);
 
   return (
-    <section id="hero" className="lg:min-h-screen flex items-center justify-center bg-white dark:bg-gray-900">
+    <section
+      id="hero"
+      className="lg:min-h-screen flex items-center justify-center bg-white dark:bg-gray-900"
+    >
       <div className="container mx-auto px-6 md:px-12 py-24 md:py-32">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className='text-4xl md:text-4xl  lg:text-5xl font-bold'
-          >
+          <h1 className="text-4xl md:text-4xl  lg:text-5xl font-bold">
             Chenna
           </h1>
           <br></br>
@@ -40,7 +42,10 @@ const HeroSection = () => {
             ref={subtitleRef}
             className="text-xl md:text-xl text-gray-600 dark:text-gray-300 mb-12 opacity-0 transform translate-y-8 transition-all duration-700 delay-300"
           >
-            Passionate Frontend Developer focused on React and modern UI. I build clean, responsive, and user-friendly web apps that turn ideas into smooth, easy-to-use experiences.</p>
+            Passionate Frontend Developer focused on React and modern UI. I
+            build clean, responsive, and user-friendly web apps that turn ideas
+            into smooth, easy-to-use experiences.
+          </p>
           <div
             ref={ctaRef}
             className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6 opacity-0 transform translate-y-8 transition-all duration-700 delay-600"
@@ -60,12 +65,12 @@ const HeroSection = () => {
 
             <a
               className="px-8 py-4 bg-black dark:bg-white text-white dark:text-black rounded-full font-medium transition-transform duration-300 hover:scale-105"
-              href='https://drive.google.com/file/d/1bD8Y6wTIFBRXjjX9XEutjPFOwhiF60W4/view'
+              href="https://drive.google.com/file/d/1aJf__wXPGC_uAmLhTH7py0X79u6_68d-/view"
               // href="https://drive.google.com/file/d/13O7wLE7ynGSVriOtNw04XvQZCNZ7FPMC/view?usp=sharing"
               target="_blank"
             >
-              Resume              </a>
-
+              Resume{" "}
+            </a>
           </div>
         </div>
       </div>
