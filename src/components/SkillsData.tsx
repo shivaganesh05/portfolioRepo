@@ -16,8 +16,8 @@ import {
   SiPayloadcms,
   SiPostgresql,
 } from "react-icons/si";
-import { DiJavascript1, DiReact, DiSass } from "react-icons/di";
-import { BsGit, BsGithub } from "react-icons/bs";
+import { DiJavascript1, DiReact } from "react-icons/di";
+import { BsFiletypeScss, BsGit, BsGithub } from "react-icons/bs";
 import {
   FaBootstrap,
   FaCss3Alt,
@@ -106,8 +106,8 @@ export const SkillsData: TechSection[] = [
     Good: [
      
       {
-        name: "SASS",
-        icon: <DiSass className="md:text-4xl text-2xl" color="#f06292" />,
+        name: "SCSS",
+        icon: <BsFiletypeScss className="md:text-4xl text-2xl" color="#f06292" />,
       },
       {
         name: "React Native",

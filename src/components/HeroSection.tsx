@@ -24,7 +24,7 @@ const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="lg:min-h-screen flex items-center justify-center bg-white dark:bg-gray-900"
+      className="lg:min-h-screen flex justify-center  items-center bg-white dark:bg-gray-900"
     >
       <div className="container mx-auto px-6 md:px-12 py-24 md:py-32">
         <div className="max-w-4xl mx-auto text-center">
