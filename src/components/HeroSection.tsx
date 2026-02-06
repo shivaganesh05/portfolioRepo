@@ -48,7 +48,7 @@ const HeroSection = () => {
           </p>
           <div
             ref={ctaRef}
-            className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6 opacity-0 transform translate-y-8 transition-all duration-700 delay-600"
+            className="flex  md:flex-row flex-col justify-center items-center space-y-4 md:space-y-0 md:space-x-6 opacity-0 transform translate-y-8 transition-all duration-700 delay-600"
           >
             <a
               href="#work"
