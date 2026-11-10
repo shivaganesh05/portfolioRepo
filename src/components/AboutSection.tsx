@@ -9,7 +9,7 @@ const AboutSection = () => {
                 About Me
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                I have 4.4 years of experience as a Frontend Developer,
+                I have 4.9 years of experience as a Frontend Developer,
                 specializing in building responsive web applications.
                 <br></br> I'm a creative developer and designer with over a
                 decade of experience crafting digital experiences that connect
@@ -100,20 +100,13 @@ const AboutSection = () => {
                       Front End Developer , <br></br>Aug 2023 - Sep 2025
                     </p>
                   </li>
-                  <li>
-                    <p className="font-medium text-gray-900 dark:text-white">
-                      Happi Mobiles Pvt. Ltd.{" "}
-                    </p>
-                    <p>
-                      Front End Developer ,<br></br> Nov 2022 - Aug 2023{" "}
-                    </p>
-                  </li>
+                
                   <li>
                     <p className="font-medium text-gray-900 dark:text-white">
                       Ivory Innovation Pvt. Ltd.{" "}
                     </p>
                     <p>
-                      UI/UX Developer ,<br></br> Dec 2021 - Nov 2022{" "}
+                      Front End Developer ,<br></br> Dec 2021 - Aug 2023{" "}
                     </p>
                   </li>
                 </ul>

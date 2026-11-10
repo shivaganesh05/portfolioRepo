@@ -50,7 +50,7 @@ const projects: Project[] = [
     title: "IT Company Website",
     description: "Fervid Smart Solutions Private Limited - It's trusted partner in technology to drive innovation, growth, and success. Established in 2016.",
     category: "Bootstrap",
-    image: "https://i.ibb.co/v62Vk1Dw/fervid233.png",
+    image: "https://i.ibb.co/cXxhwgnH/fer.png",
     url: "https://www.fervidsmart.com/index.html"
   },
    {
